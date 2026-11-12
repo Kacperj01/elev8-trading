@@ -117,8 +117,6 @@ fieldset{border:0;margin:0;padding:0}legend{font-size:14px;font-weight:600;color
 .team{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
 .photo{position:relative;aspect-ratio:4/5;border-radius:32px;overflow:hidden;background:radial-gradient(80% 60% at 50% 30%,rgba(42,127,217,.35),transparent 70%),linear-gradient(160deg,#16304f,#0a1626);border:1px solid var(--line);display:grid;place-items:center}
 .photo>img{width:46%;opacity:.95;margin-bottom:80px}
-.photo>img.pf{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%;opacity:1;margin:0}
-.photo .nm{z-index:1}
 .photo .nm{position:absolute;left:20px;right:20px;bottom:20px;padding:18px 20px;border-radius:20px;background:rgba(6,17,31,.88);border:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
 .photo .nm b{font-size:22px;display:block}.photo .nm small{color:var(--teal);font-weight:600}
 .soc{display:flex;gap:8px}.soc a{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(150,195,245,.08);border:1px solid var(--line)}.soc a:hover{border-color:rgba(47,208,200,.5)}.soc svg{width:18px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -154,5 +152,5 @@ footer{border-top:1px solid var(--line);padding:56px 0 calc(60px + env(safe-area
 .hero .wrap,.team,.faqg,.apply,.sig,.jr{grid-template-columns:1fr;gap:40px}
 .scene{height:560px}.fl{min-width:0;font-size:13px}.vals .wrap,.pathg,.start{grid-template-columns:1fr}
 .vals .wrap>div{border-left:0;border-top:1px solid var(--line);padding:26px 0}.vals .wrap>div:first-child{border-top:0}
-.start:before{display:none}.photo>img.pf{top:-14%;height:114%}.photo .nm{padding:14px 16px}.facts{grid-template-columns:1fr}.of{padding:26px}.ctab{padding:64px 22px}.form{padding:24px}.form .two{grid-template-columns:1fr}.tg{margin:0}.feat{grid-template-columns:1fr}}
+.start:before{display:none}.facts{grid-template-columns:1fr}.of{padding:26px}.ctab{padding:64px 22px}.form{padding:24px}.form .two{grid-template-columns:1fr}.tg{margin:0}.feat{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
