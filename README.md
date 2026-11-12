@@ -17,6 +17,8 @@ The journal itself lives in its own repo and at elev8tradingjournal.com; this si
 - Keep the ELEV8 colours and the Outfit font.
 - Only the public (publishable) Supabase key goes in the site. Never the service key or any other secret.
 
-## Custom domain
-When the domain is bought: add `docs/CNAME` with the domain, set it in Settings > Pages, add the DNS records,
-then update `og:image` in `docs/index.html` to the full URL and add a sitemap.
+## Domain
+The site is served at https://elev8trading.app (`docs/CNAME`). DNS: apex A records to GitHub Pages
+(185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153), AAAA records
+(2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153) and
+`www` CNAME to `kacperj01.github.io`. `.app` domains only work over HTTPS, so keep "Enforce HTTPS" on in Settings > Pages.
