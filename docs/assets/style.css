@@ -52,6 +52,8 @@ section{padding:120px 0}
 .of .ic{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(47,208,200,.1);border:1px solid rgba(47,208,200,.28)}
 .of .ic svg{width:26px;stroke:var(--teal);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .badge{font:700 12px Outfit;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:999px;background:rgba(150,195,245,.08);color:var(--t2);border:1px solid var(--line)}
+.badge.pr{background:rgba(47,208,200,.12);color:#9ff0ea;border-color:rgba(47,208,200,.45);letter-spacing:.04em}
+.price{display:flex;align-items:baseline;gap:12px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}.price b{font-size:34px;font-weight:800;letter-spacing:-.02em}.price span{color:var(--mu);font-size:14px}
 .badge.fr{background:rgba(69,227,155,.1);color:var(--green);border-color:rgba(69,227,155,.35)}
 .of h3{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-bottom:10px}.of p{color:var(--t2);font-size:16px}
 .of .lnk{margin-top:auto;padding-top:26px;font-weight:600;color:var(--teal);display:inline-flex;align-items:center;gap:8px;align-self:flex-start}.of .lnk svg{width:18px;stroke:currentColor;fill:none;stroke-width:2}
@@ -120,7 +122,7 @@ fieldset{border:0;margin:0;padding:0}legend{font-size:14px;font-weight:600;color
 .photo .nm{position:absolute;left:20px;right:20px;bottom:20px;padding:18px 20px;border-radius:20px;background:rgba(6,17,31,.88);border:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
 .photo .nm b{font-size:22px;display:block}.photo .nm small{color:var(--teal);font-weight:600}
 .soc{display:flex;gap:8px}.soc a{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(150,195,245,.08);border:1px solid var(--line)}.soc a:hover{border-color:rgba(47,208,200,.5)}.soc svg{width:18px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.big{font-size:clamp(22px,2.4vw,28px);font-weight:600;line-height:1.35;letter-spacing:-.01em;margin:26px 0 20px}
+.quote{font-size:clamp(22px,2.4vw,28px);font-weight:600;line-height:1.35;letter-spacing:-.01em;margin:26px 0 20px}
 .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.facts div{padding:18px;border-radius:18px;background:var(--card);border:1px solid var(--line)}.facts small{display:block;color:var(--mu);font-size:13px}.facts b{font-size:17px}
 .grow{margin-top:14px;padding:18px 20px;border-radius:18px;border:1.5px dashed rgba(150,195,245,.25);color:var(--t2);font-size:15px}
 /* faq */
