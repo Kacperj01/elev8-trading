@@ -9,6 +9,7 @@ The journal itself lives in its own repo and at elev8tradingjournal.com; this si
 - `docs/assets/main.js`: settings at the top (Supabase project, Vantage partner link).
 - `supabase/mentorship_applications.sql`: run once in the Supabase SQL editor to create the
   mentorship applications table. Visitors can only add applications; read them in the Supabase Table Editor.
+- `tools/version.py`: run after changing anything in `docs/assets` so browsers pick up the new files straight away.
 - `tools/og.html`: source of the link preview image `docs/assets/og.png`.
 
 ## Rules
