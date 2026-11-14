@@ -57,7 +57,8 @@ section{padding:120px 0}
 .fp{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:40px;border-radius:30px;background:linear-gradient(var(--card),var(--card)) padding-box,var(--grad) border-box;border:1.5px solid transparent}
 .fpl{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .amt{display:flex;align-items:baseline;gap:10px}.amt b{font-size:72px;font-weight:800;letter-spacing:-.04em;line-height:1}.amt span{color:var(--mu);font-size:18px}
-.fpl p{color:var(--t2);font-size:15.5px}.fpl .btn{margin-top:auto}
+.fpl .btn{margin-top:auto}
+.then{display:flex;flex-wrap:wrap;gap:8px}.then span{padding:7px 12px;border-radius:10px;border:1px solid var(--line);background:rgba(150,195,245,.05);color:var(--t2);font-size:14px;font-weight:600}
 .inc{list-style:none;margin:0;padding:0;display:grid;gap:12px;align-content:center}
 .inc li{display:flex;gap:12px;align-items:center;font-size:16px}
 .inc li:before{content:"✓";flex:none;width:24px;height:24px;border-radius:8px;background:var(--grad);color:#06111f;font-size:14px;font-weight:800;display:grid;place-items:center}
