@@ -1,6 +1,6 @@
 # ELEV8 Trading website
 
-The ELEV8 Trading brand site: mentorship, premium Discord, Telegram trade ideas and the free ELEV8 Journal.
+The ELEV8 Trading brand site: mentorship, premium Discord, Telegram trade ideas and the ELEV8 Journal.
 The journal itself lives in its own repo and at elev8tradingjournal.com; this site only links to it.
 
 ## Layout
