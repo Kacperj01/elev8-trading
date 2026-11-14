@@ -52,6 +52,18 @@ section{padding:120px 0}
 .of .ic{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(47,208,200,.1);border:1px solid rgba(47,208,200,.28)}
 .of .ic svg{width:26px;stroke:var(--teal);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .badge{font:700 12px Outfit;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:999px;background:rgba(150,195,245,.08);color:var(--t2);border:1px solid var(--line)}
+.badge.pr{background:rgba(47,208,200,.12);color:#9ff0ea;border-color:rgba(47,208,200,.45);letter-spacing:.04em}
+.flat{max-width:900px;margin:48px auto 0}
+.fp{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:40px;border-radius:30px;background:linear-gradient(var(--card),var(--card)) padding-box,var(--grad) border-box;border:1.5px solid transparent}
+.fpl{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.amt{display:flex;align-items:baseline;gap:10px}.amt b{font-size:72px;font-weight:800;letter-spacing:-.04em;line-height:1}.amt span{color:var(--mu);font-size:18px}
+.fpl p{color:var(--t2);font-size:15.5px}.fpl .btn{margin-top:auto}
+.inc{list-style:none;margin:0;padding:0;display:grid;gap:12px;align-content:center}
+.inc li{display:flex;gap:12px;align-items:center;font-size:16px}
+.inc li:before{content:"✓";flex:none;width:24px;height:24px;border-radius:8px;background:var(--grad);color:#06111f;font-size:14px;font-weight:800;display:grid;place-items:center}
+.who{text-align:center;font-size:22px;font-weight:800;margin:70px 0 0;color:var(--t2)}
+.who+.pathg{margin-top:28px}
+@media(max-width:780px){.fp{grid-template-columns:1fr;padding:26px;gap:24px}.amt b{font-size:60px}.fpl .btn{width:100%}.who{margin-top:50px}}
 .badge.fr{background:rgba(69,227,155,.1);color:var(--green);border-color:rgba(69,227,155,.35)}
 .of h3{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-bottom:10px}.of p{color:var(--t2);font-size:16px}
 .of .lnk{margin-top:auto;padding-top:26px;font-weight:600;color:var(--teal);display:inline-flex;align-items:center;gap:8px;align-self:flex-start}.of .lnk svg{width:18px;stroke:currentColor;fill:none;stroke-width:2}
