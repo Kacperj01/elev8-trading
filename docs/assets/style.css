@@ -125,6 +125,8 @@ fieldset{border:0;margin:0;padding:0}legend{font-size:14px;font-weight:600;color
 .jr{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
 .jr .ph2{display:flex;justify-content:center}
 .feat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}.feat div{padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:14.5px;color:var(--t2)}.feat b{display:block;color:var(--text)}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.plans span{padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-weight:700;font-size:18px}.plans span b{display:block;font-size:13px;font-weight:600;color:var(--mu);letter-spacing:.06em;text-transform:uppercase}.plans .el{background:linear-gradient(var(--card),var(--card)) padding-box,var(--grad) border-box;border:1.5px solid transparent}
+.plansn{color:var(--mu);font-size:14px;margin-top:10px}.plansn a{color:var(--teal);text-decoration:underline}
 .phone.st{position:relative;left:auto;top:auto;transform:rotate(-2deg)}
 /* team */
 .team{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
