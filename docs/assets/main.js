@@ -4,17 +4,17 @@
 const CONFIG = {
   supabaseUrl: "https://jkxcoebilwcqeeziqhwn.supabase.co",
   supabaseKey: "sb_publishable_K_X-lBQ1wsN86Bo4Ip8-Sg_OPIsLES6",
-  // Vantage partner link. Leave empty until it's ready; the button then shows "coming soon".
+  // Partner broker sign-up link. Leave empty until the partnership is confirmed; the button then shows "Broker partnership pending".
   vantageUrl: "",
 };
 
 document.getElementById("yr").textContent = new Date().getFullYear();
 
-// Vantage button
+// Partner broker button
 const vb = document.getElementById("vantageBtn");
 if (vb && CONFIG.vantageUrl) {
   vb.href = CONFIG.vantageUrl; vb.target = "_blank"; vb.rel = "noopener sponsored";
-  vb.removeAttribute("aria-disabled"); vb.textContent = "Sign up with Vantage";
+  vb.removeAttribute("aria-disabled"); vb.textContent = "Sign up with our partner broker";
 } else if (vb) {
   vb.addEventListener("click", e => e.preventDefault());
 }

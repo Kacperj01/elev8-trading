@@ -6,7 +6,7 @@ The journal itself lives in its own repo and at elev8tradingjournal.com; this si
 ## Layout
 - `docs/`: the website, served by GitHub Pages (Settings > Pages > Deploy from a branch > `main` / `docs`).
   Plain HTML, CSS and JS, no build step.
-- `docs/assets/main.js`: settings at the top (Supabase project, Vantage partner link).
+- `docs/assets/main.js`: settings at the top (Supabase project, partner broker link).
 - `supabase/mentorship_applications.sql`: run once in the Supabase SQL editor to create the
   mentorship applications table. Visitors can only add applications; read them in the Supabase Table Editor.
 - `tools/version.py`: run after changing anything in `docs/assets` so browsers pick up the new files straight away.
@@ -14,7 +14,7 @@ The journal itself lives in its own repo and at elev8tradingjournal.com; this si
 
 ## Rules
 - Every page says ELEV8 is for education only, not financial advice, is not affiliated with any prop firm,
-  and discloses the Vantage partnership.
+  and discloses the broker partnership (pending; name the broker once confirmed).
 - Keep the ELEV8 colours and the Outfit font.
 - Only the public (publishable) Supabase key goes in the site. Never the service key or any other secret.
 
